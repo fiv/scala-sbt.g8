@@ -9,6 +9,10 @@ version := "$version$"
 
 scalaVersion := "$scala_version$"
 
+// Settings
+
+ScctPlugin.instrumentSettings
+
 // Resolvers
 
 
