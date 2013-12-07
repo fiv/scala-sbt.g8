@@ -1,7 +1,7 @@
 
 A giter8 template for Scala 2.10 projects using sbt.
 
-- Scala 2.10
+- Scala 2.10.3
 
 - Enabled plugins:
   - sbt-idea
