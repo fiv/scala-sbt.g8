@@ -13,16 +13,17 @@ scalaVersion := "$scala_version$"
 
 ScctPlugin.instrumentSettings
 
+ScoverageSbtPlugin.instrumentSettings
+
 // Resolvers
 
 
 
 // Libraries
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.1.5" % "test"
 
-libraryDependencies += "org.scalautils" % "scalautils_2.10" % "2.0"
+libraryDependencies += "org.scalautils" % "scalautils_2.11" % "2.1.5"
 
-libraryDependencies += "com.typesafe" %% "scalalogging-slf4j" % "1.0.1"
-
+libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
 
