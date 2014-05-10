@@ -1,22 +1,25 @@
 
-A giter8 template for Scala 2.10 projects using sbt.
+A giter8 template for Scala 2.11 projects using sbt.
 
-- Scala 2.10.3
+- Scala 2.11.0
 
 - Enabled plugins:
   - sbt-idea
   - scct
+  - sbt-scoverage
   - sbt-growl-plugin
 
 - Library dependencies:
   - ScalaTest
-  - scalalogging
+  - ScalaUtils
+  - scala-logging-slf4j
 
 Links:
  - giter8, https://github.com/n8han/giter8
  - sbt-idea, https://github.com/mpeltonen/sbt-idea
- - scct, http://mtkopone.github.com/scct/
+ - scct, https://github.com/sqality/scct
+ - sbt-scoverage, https://github.com/scoverage/sbt-scoverage 
  - sbt-growl-plugin, https://github.com/softprops/sbt-growl-plugin
- - ScalaTest, http://www.scalatest.org
- - scalalogging, https://github.com/typesafehub/scalalogging
+ - ScalaTest, ScalaUtils, http://www.scalatest.org
+ - scala-logging, https://github.com/typesafehub/scala-logging
 
